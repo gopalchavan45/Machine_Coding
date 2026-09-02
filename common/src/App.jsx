@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Applayout from "./layout/Applayout";
 import Pagination from "./pages/Pagination";
+import EnterpriseForm from "./pages/EnterpriseForm";
 
 // Placeholder components for other dashboard pages
 const DashboardHome = () => (
@@ -42,6 +43,7 @@ const App = () => {
           <Route index element={<DashboardHome />} />
           
           <Route path="pagination" element={<Pagination />} />
+          <Route path="enterpriseForm" element={<EnterpriseForm />} />
           <Route path="settings" element={<SettingsPage />} />
           <Route path="support" element={<SupportPage />} />
           

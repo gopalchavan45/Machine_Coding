@@ -17,6 +17,7 @@ const Sidebar = () => {
     { name: "Dashboard", path: "/", icon: LayoutDashboard },
     { name: "Users", path: "/users", icon: Users },
     { name: "Pagination", path: "/pagination", icon: Wallet },
+    { name: "EnterpriseForm", path: "/enterpriseForm", icon: Users },
     { name: "Settings", path: "/settings", icon: Settings },
     { name: "Support", path: "/support", icon: HelpCircle },
   ];
