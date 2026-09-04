@@ -20,6 +20,7 @@ const Sidebar = () => {
     { name: "EnterpriseForm", path: "/enterpriseForm", icon: Users },
     { name: "Settings", path: "/settings", icon: Settings },
     { name: "Support", path: "/support", icon: HelpCircle },
+    { name: "EnterpriseTodos", path: "/enterprise-todos", icon: Users }
   ];
 
   return (

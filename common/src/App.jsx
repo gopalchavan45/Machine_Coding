@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Applayout from "./layout/Applayout";
 import Pagination from "./pages/Pagination";
 import EnterpriseForm from "./pages/EnterpriseForm";
+import IndustrialTodoApp from "./pages/IndustrialTodoApp";
 
 // Placeholder components for other dashboard pages
 const DashboardHome = () => (
@@ -46,6 +47,7 @@ const App = () => {
           <Route path="enterpriseForm" element={<EnterpriseForm />} />
           <Route path="settings" element={<SettingsPage />} />
           <Route path="support" element={<SupportPage />} />
+          <Route path="enterprise-todos" element={<IndustrialTodoApp />} />
           
           {/* Fallback 404 Route */}
           <Route
