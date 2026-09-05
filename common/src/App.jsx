@@ -4,7 +4,8 @@ import Applayout from "./layout/Applayout";
 import Pagination from "./pages/Pagination";
 import EnterpriseForm from "./pages/EnterpriseForm";
 import IndustrialTodoApp from "./pages/IndustrialTodoApp";
-
+import { faqData } from "./data/data";
+import Accordion from "./pages/Accordion";
 // Placeholder components for other dashboard pages
 const DashboardHome = () => (
   <div>
@@ -48,6 +49,7 @@ const App = () => {
           <Route path="settings" element={<SettingsPage />} />
           <Route path="support" element={<SupportPage />} />
           <Route path="enterprise-todos" element={<IndustrialTodoApp />} />
+          <Route path="accordion" element={<Accordion items={faqData} allowMultiple={false}/>} />
           
           {/* Fallback 404 Route */}
           <Route
